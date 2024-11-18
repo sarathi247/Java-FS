@@ -15,10 +15,10 @@ public class ConditionalStatement {
 		age=obj.nextInt();
 		
 		if(age>=18) {
-			System.out.println("Hi "+ name+" you eligibile in your oter "+age+".");
+			System.out.println("Hi "+ name+" you eligibile in your voter "+age+".");
 		}
 		else{
-			System.out.println("Hi "+name+" you not eligibile in your oter "+age+".");
+			System.out.println("Hi "+name+" you not eligibile in your voter "+age+".");
 		}
 
 	}
