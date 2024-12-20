@@ -1,5 +1,5 @@
 package Dec19;
-
+import java.util.*;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 public class DateTask {
@@ -7,8 +7,8 @@ public class DateTask {
 	public static void main(String[] args) {
 		
 		DateTimeFormatter dtf=DateTimeFormatter.ofPattern("dd//MM//yyyy");
-		
-		String format="24//07//2003";
+		Scanner input=new Scanner(System.in);
+		String format=input.nextLine();
 		LocalDate date=LocalDate.parse(format,dtf);
 	
         LocalDate newDate = date.plusDays(4).plusMonths(4).plusYears(4);
